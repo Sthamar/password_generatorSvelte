@@ -1,6 +1,6 @@
 <script>
 	let passwordLength = 16;
-	let includeLowercase = false;
+	let includeLowercase = true;
 	let includeUppercase = true;
 	let includeSymbols = false;
 	let includeNumbers = false;
@@ -22,7 +22,7 @@
 			password = "Please select at least one option";
 			return;
 		}
-		password = Array.from({length: passwordLength},()=>
+		password = Array.from({length: passwordLength},() =>
 		charPool[Math.floor(Math.random()*charPool.length)]
 	).join("");
 	};
