@@ -6,7 +6,7 @@
 	let includeNumbers = false;
 	let password = "";
 
-	const generatePassword = () =>{
+	const generatePassword = () => {
 		const upperCaseChars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 		const lowerCaseChars = "abcdefghijklmnopqrstuvwxyz";
 		const numberChars = "0123456789";
