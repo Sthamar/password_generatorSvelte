@@ -666,7 +666,7 @@ var app = (function () {
     	let { $$slots: slots = {}, $$scope } = $$props;
     	validate_slots('App', slots, []);
     	let passwordLength = 16;
-    	let includeLowercase = false;
+    	let includeLowercase = true;
     	let includeUppercase = true;
     	let includeSymbols = false;
     	let includeNumbers = false;
