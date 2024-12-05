@@ -53,25 +53,25 @@
 		</div>
 		<div class="row">
 			<label>
-				<input type="checkbox" bind:value={includeUppercase}>
+				<input type="checkbox" bind:checked={includeUppercase}>
 				Include Uppercase Letters
 			</label>
 		</div>
 		<div class="row">
 			<label>
-				<input type="checkbox" bind:value={includeLowercase}>
+				<input type="checkbox" bind:checked={includeLowercase}>
 				Include Lowercase Letters
 			</label>
 		</div>
 		<div class="row">
 			<label>
-				<input type="checkbox" bind:value={includeNumbers}>
+				<input type="checkbox" bind:checked={includeNumbers}>
 				Include Numbers
 			</label>
 		</div>
 		<div class="row">
 			<label>
-				<input type="checkbox" bind:value={includeSymbols}>
+				<input type="checkbox" bind:checked={includeSymbols}>
 				Include Symbols
 			</label>
 		</div>
