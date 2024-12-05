@@ -1,9 +1,9 @@
 <script>
 	let passwordLength = 16;
-	let includeLowercase = true;
+	let includeLowercase = false;
 	let includeUppercase = true;
 	let includeSymbols = false;
-	let includeNumbers = true;
+	let includeNumbers = false;
 	let password = "";
 
 	const generatePassword = () =>{
